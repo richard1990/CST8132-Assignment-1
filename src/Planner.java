@@ -26,8 +26,7 @@ public class Planner {
 	 * Void method that allows user to add an activity.
 	 */
 	public void inputActivity() {
-		boolean booleanOccupied = false; // boolean used to check if an activity
-										 // already exists for a specific date and time
+		boolean booleanOccupied = false; // boolean to check if an activity already exists for a specific date and time
 		//check if the array is full, if not, move on
 		if (nNumberOfEvents >= MAXEVENTS) {
 			System.out.println("Your planner is full! You must delete an activity before you can add another.");
@@ -81,13 +80,14 @@ public class Planner {
 	
 	/**
 	 * Void method to display activities for a week.
+	 * @param	date	OurDate object.
 	 */
 	public void displaySevenDays(OurDate date) {
 		System.out.println("Your activities for the week starting " +date.toString() +" are: ");
 		//loop seven times to display activities for seven days
 		for (int i = 0; i < 7; i++) {
 			displayOneDay(date);
-		    date.addOne(); // add one day and loop again
+			date.addOne(); // add one day and loop again
 		}
 	} // end method displaySevenDays
 	

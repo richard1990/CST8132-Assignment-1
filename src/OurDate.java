@@ -160,7 +160,7 @@ public class OurDate {
 		do {
 			System.out.print ("Enter year: ");
 			this.nYear = input.nextInt();
-		} while (this.nYear < 1 || this.nYear > 2099);
+		} while (this.nYear < 2013 || this.nYear > 2099);
 	} // end method inputFromKeyboard
 
 	/**
