@@ -1,4 +1,4 @@
-# CST8132-Assignment-1
+# CST8132 Assignment #1 - Activity Planner
 This was my first assignment I created in my "Object-Oriented Programming" course at Algonquin College. Written in Java, the program functions as an activity planner. Users can add an activity to their planner by specifying the date (month, day, and year), time (hour and minute), and a description of the activity. The activities are held in an array of the Event class. Users can display acitivites for one day, for a week, or delete an activity. A maximum of 1000 activities can be added.
 
 This program built on my knowledge of programming and really introduced me to how effective object-oriented programming is. The OurDate and OurTime classes were largely written by my professor and I just had to add user input, while the rest of the program was written by me. The program does not handle improper input (e.g. entering a character when an integer is requested) as its purpose was to introduce how to effectively use multiple classes and objects together.
